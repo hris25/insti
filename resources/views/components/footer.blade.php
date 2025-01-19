@@ -41,7 +41,7 @@
                 <li><a href="{{ route('home') }}">Accueil</a></li>
                 <li><a href="{{ route('formations') }}">Formation</a></li>
                 <li><a  href="{{ route('vie-estudiantine') }}">Vie estudiantine</a></li>
-                <li><a href="{{ route('mediatheque') }}">Mediatheque</a></li>
+                <li><a href="{{ route('mediatheque.index') }}">Mediatheque</a></li>
                 <li><a href="{{ route('home') }}#mot-directrice">Mot de la Directrice</a></li>
                 <li><a href="{{ route('home') }}#statistiques">Nos Statistiques</a></li>
                 <li><a href="{{ route('home') }}#partenaires">Nos Partenaires</a></li>

@@ -51,6 +51,7 @@ class FormationAdminController extends Controller
 
     public function edit(Formation $formation)
     {
+        $formation->career_opportunities = json_decode($formation->career_opportunities, true) ?? [];
         return view('admin.formations.edit', compact('formation'));
     }
 

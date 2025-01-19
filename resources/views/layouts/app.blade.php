@@ -4,12 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INSTI - @yield('title')</title>
+    
+    <!-- Tailwind CSS -->
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    
+    <!-- Styles personnalisés -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .gallery-item {
+            transition: transform 0.3s ease-in-out;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .play-button {
+            transition: opacity 0.3s ease-in-out;
+        }
+        
+        .gallery-item:hover .play-button {
+            opacity: 0.9;
+        }
+    </style>
 </head>
-<body>
+<body class="bg-gray-50">
     @include('components.header')
     
-    <main>
+    <main class="min-h-screen">
         @yield('content')
     </main>
 
@@ -38,5 +68,6 @@
         });
     </script>
     
+    @stack('scripts')
 </body>
 </html>

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Album;
 use Illuminate\Http\Request;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 
@@ -92,5 +93,37 @@ class AlbumAdminController extends Controller
     {
         $album->delete();
         return redirect()->route('admin.albums.index')->with('success', 'Album supprimé avec succès.');
+    }
+
+    /**
+     * Supprimer un média spécifique d'un album
+     *
+     * @param Request $request
+     * @param Album $album
+     * @return JsonResponse
+     */
+    public function deleteMedia(Request $request, Album $album)
+    {
+        try {
+            $mediaPath = $request->input('media');
+            
+            // Vérifier si le média appartient à l'album
+            $media = $album->media;
+            if (!in_array($mediaPath, $media)) {
+                return response()->json(['success' => false, 'message' => 'Media not found'], 404);
+            }
+
+            // Supprimer le fichier du stockage
+            Storage::disk('public')->delete($mediaPath);
+
+            // Mettre à jour le tableau des médias de l'album
+            $media = array_diff($media, [$mediaPath]);
+            $album->media = array_values($media);
+            $album->save();
+
+            return response()->json(['success' => true]);
+        } catch (\Exception $e) {
+            return response()->json(['success' => false, 'message' => $e->getMessage()], 500);
+        }
     }
 }
