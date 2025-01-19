@@ -1,0 +1,39 @@
+# Fichiers sensibles
+/.env
+/.env.backup
+/.env.production
+
+# Dossiers de dépendances
+/vendor
+/node_modules
+
+# Fichiers de build
+/public/build
+/public/hot
+/public/storage
+
+# Fichiers de cache
+/.phpunit.cache
+/.phpunit.result.cache
+/bootstrap/cache/*
+
+# Fichiers de stockage
+/storage/*.key
+/storage/pail
+/storage/logs/*
+
+# Fichiers de configuration pour les environnements de développement
+Homestead.json
+Homestead.yaml
+auth.json
+
+# Fichiers de logs npm/yarn
+npm-debug.log
+yarn-error.log
+
+# Fichiers de configuration pour les IDE
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
