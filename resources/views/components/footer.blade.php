@@ -4,7 +4,7 @@
         <div class="footer-col">
             <img src="{{ asset('images/logo-left.png') }}" alt="Logo INSTI" class="footer-logo">
             <p class="location">Lokossa, Agnivedji</p>
-            <p class="phone">(+229) 22 41 13 66</p>
+            <p class="phone">(+229) 00 00 00 00</p>
             <p class="slogan">"Science et technologie au service de l'homme"</p>
             <a href="mailto:instilokossa@gmail.com" class="email">instilokossa@gmail.com</a>
             <div class="social-links">

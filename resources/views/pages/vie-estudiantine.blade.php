@@ -272,9 +272,9 @@
                                 <p class="text-blue-100">Diplômés</p>
                             </div>
                             <div class="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
-                                <div class="text-4xl font-bold text-white mb-2">25+</div>
+                                <div class="text-4xl font-bold text-white mb-2">10+</div>
                                 <p class="text-blue-100">Clubs étudiants</p>
-                            </div>
+                            </div>git a
                             <div class="bg-white/10 p-6 rounded-lg backdrop-blur-sm">
                                 <div class="text-4xl font-bold text-white mb-2">100%</div>
                                 <p class="text-blue-100">Satisfaction étudiante</p>

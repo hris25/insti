@@ -6,7 +6,7 @@
     <div class="slides">
         @foreach ($actualites as $actualite)
             <div class="slide {{ $loop->first ? 'active' : '' }}">
-                <img src="{{ asset('storage/' . $actualite->image) }}" alt="{{ $actualite->titre }}">
+                <img class="object-center" src="{{ asset('storage/' . $actualite->image) }}" alt="{{ $actualite->titre }}">
                 <div class="slide-content">
                     <h3>{{ $actualite->titre }}</h3>
                     <p>{{ $actualite->description }}</p>

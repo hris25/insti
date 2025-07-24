@@ -33,7 +33,7 @@ Route::get('/observatoire', function() {
 })->name('observatoire');
 
 // Routes d'administration pour les formations
-Route::prefix('admin')->name('admin.')->group(function () {
+Route::prefix('wpadmin')->name('admin.')->group(function () {
     Route::resource('formations', FormationAdminController::class);
     Route::resource('actualites', ActualiteAdminController::class);
     Route::resource('albums', AlbumAdminController::class);
