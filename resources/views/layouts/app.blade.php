@@ -15,8 +15,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <style>
-        body {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html, body {
+            margin: 0 !important;
+            padding: 0 !important;
             font-family: 'Inter', sans-serif;
+        }
+        
+        /* Force header to stick to top */
+        header {
+            margin: 0 !important;
+            padding: 0 !important;
+            position: relative !important;
+            top: 0 !important;
+            display: block !important;
+            border: none !important;
+            outline: none !important;
+        }
+        
+        /* Force body to start at top */
+        body {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        /* Remove any potential spacing from Tailwind or other CSS */
+        .w-full {
+            margin: 0 !important;
         }
         
         .gallery-item {
@@ -36,7 +66,7 @@
         }
     </style>
 </head>
-<body class="bg-gray-50">
+<body class="bg-gray-50 m-0 p-0">
     @include('components.header')
     
     <main class="min-h-screen">

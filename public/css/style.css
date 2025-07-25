@@ -1,11 +1,11 @@
 /* Palette de couleurs */
 :root {
     --bleu-principal: #0d4293;
-    --bleu-clair: #3B68B5;
-    --bleu-fonce: #052C6E;
-    --gris-clair: #F5F7FA;
-    --gris: #6B7280;
-    --blanc: #FFFFFF;
+    --bleu-clair: #3b68b5;
+    --bleu-fonce: #052c6e;
+    --gris-clair: #f5f7fa;
+    --gris: #6b7280;
+    --blanc: #ffffff;
 }
 
 /* Reset */
@@ -16,7 +16,7 @@
 }
 
 body {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     color: var(--gris);
     background-color: var(--gris-clair);
     line-height: 1.5;
@@ -25,22 +25,24 @@ body {
 /* Header Styles */
 header {
     background-color: var(--bleu-principal);
-    padding: 15px 0 0 0;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 20px !important;
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 0 auto !important;
+    position: relative !important;
+    top: 0 !important;
 }
 
 .logo-title {
     display: flex;
     align-items: center;
-    gap: 15px;
 }
 
 .logo {
@@ -116,7 +118,12 @@ header {
     bottom: 20px;
     left: 20px;
     right: 20px;
-    background-color: rgba(0, 0, 0, 0.6); /* Fond semi-transparent pour améliorer la lisibilité */
+    background-color: rgba(
+        0,
+        0,
+        0,
+        0.6
+    ); /* Fond semi-transparent pour améliorer la lisibilité */
     color: var(--blanc);
     padding: 20px;
     border-radius: 8px;
@@ -132,7 +139,8 @@ header {
     margin-bottom: 0;
 }
 
-.prev, .next {
+.prev,
+.next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -146,7 +154,8 @@ header {
     transition: background-color 0.3s ease;
 }
 
-.prev:hover, .next:hover {
+.prev:hover,
+.next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -200,7 +209,8 @@ header {
         font-size: 12px; /* Taille de police plus petite pour les mobiles */
     }
 
-    .prev, .next {
+    .prev,
+    .next {
         padding: 8px;
         font-size: 16px;
     }
@@ -373,7 +383,6 @@ header {
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
-
     /* Header et Logo */
     .logo-container {
         flex-direction: row;
@@ -482,7 +491,6 @@ header {
     }
 }
 
-
 /* Mot de la Directrice */
 .mot-directrice {
     display: flex;
@@ -505,7 +513,6 @@ header {
     border-radius: 8px;
     /* Ajout d'un border-radius pour la vidéo */
 }
-
 
 .mot-directrice .content {
     flex: 1;
@@ -552,7 +559,6 @@ header {
     flex: 1;
     max-width: 600px;
 }
-
 
 /* Media Queries pour Mot de la Directrice */
 @media screen and (max-width: 768px) {
@@ -713,7 +719,7 @@ header {
         /* Force 4 colonnes */
     }
 
-    .stat-item:nth-last-child(-n+2) {
+    .stat-item:nth-last-child(-n + 2) {
         grid-column: span 2;
         /* Fait en sorte que chaque élément prenne 2 colonnes */
         justify-self: center;
@@ -817,7 +823,6 @@ header {
 
 /* Ajustement pour mobile */
 @media screen and (max-width: 768px) {
-
     .mot-directrice,
     .statistiques,
     .partenaires {
@@ -1445,7 +1450,6 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-
     .clubs-section h3,
     .phototheque h3 {
         font-size: 1.2rem;
@@ -1661,4 +1665,9 @@ footer {
     .gallery-item {
         height: 250px;
     }
+}
+
+.logo-shadow-custom {
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.25),
+        0 1.5px 8px 0 rgba(13, 66, 147, 0.15);
 }
