@@ -33,7 +33,7 @@
                     <span class="text-[#0d4293] font-bold">|</span>
                     <li><a href="{{ route('mediatheque.index') }}" class="hover:text-[#3B68B5] transition">MÉDIATHEQUE</a></li>
                     <span class="text-[#0d4293] font-bold">|</span>
-                    <li><a href="#" class="hover:text-[#3B68B5] transition">CONTACTS</a></li>
+                    <li><a href="{{ route('contact') }}" class="hover:text-[#3B68B5] transition">CONTACTS</a></li>
                 </ul>
             </nav>
         </div>

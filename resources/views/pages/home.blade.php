@@ -43,20 +43,20 @@
     </div>
     
     <div class="container mx-auto px-6 relative z-10">
-        <!-- Barre bleue plus épaisse -->
+        
         <div class="w-24 h-2 bg-blue-600 mb-4"></div>
         
-        <!-- Titre exact -->
+        
         <h2 class="text-lg font-bold text-gray-900 mb-2 tracking-wide">NOS STATISTIQUES</h2>
         <p class="text-xs text-gray-700 mb-8 max-w-4xl leading-relaxed">
             Les valeurs et efforts de l'INSTI sont reconnus et félicités par plusieurs partenaires dont les industries (La SBIB, la CEB, la cimenterie LAFARGE et autres) qui entretiennent une étroite collaboration avec notre institut
         </p>
         
-        <!-- Statistiques avec icônes exactes de la maquette -->
+        
         <div class="flex justify-between items-center max-w-6xl mx-auto">
-            <!-- 1447 Étudiants -->
+            
             <div class="flex items-center">
-                <!-- Icône deux personnes exacte -->
+                
                 <svg class="w-12 h-12 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
                     <path d="M16.5 12c1.38 0 2.5-1.12 2.5-2.5S17.88 7 16.5 7 14 8.12 14 9.5s1.12 2.5 2.5 2.5zm0 1c-1.67 0-5 .84-5 2.5V17h10v-1.5c0-1.66-3.33-2.5-5-2.5z"/>
@@ -67,12 +67,12 @@
                 </div>
             </div>
             
-            <!-- Ligne séparatrice -->
+            
             <div class="w-px h-16 bg-gray-400 mx-6"></div>
             
-            <!-- 06 Spécialités -->
+            
             <div class="flex items-center">
-                <!-- Icône bâtiment exact -->
+                
                 <svg class="w-12 h-12 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M6.5 10h-2v7h2v-7zm6 0h-2v7h2v-7zm8.5 9H2v2h19v-2zm-2.5-9h-2v7h2v-7zm-7-6.74L16.71 6H6.29l5.21-2.74m0-2.26L2 6v2h19V6l-9.5-5z"/>
                 </svg>
@@ -82,12 +82,12 @@
                 </div>
             </div>
             
-            <!-- Ligne séparatrice -->
+            
             <div class="w-px h-16 bg-gray-400 mx-6"></div>
             
-            <!-- 2001 Année -->
+            
             <div class="flex items-center">
-                <!-- Icône calendrier exact -->
+                
                 <svg class="w-12 h-12 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
                 </svg>
@@ -97,12 +97,12 @@
                 </div>
             </div>
             
-            <!-- Ligne séparatrice -->
+            
             <div class="w-px h-16 bg-gray-400 mx-6"></div>
             
-            <!-- 800+ Diplômés -->
+            
             <div class="flex items-center">
-                <!-- Icône diplôme exact -->
+                
                 <svg class="w-12 h-12 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
                 </svg>
@@ -112,15 +112,15 @@
                 </div>
             </div>
             
-            <!-- Ligne séparatrice -->
+            
             <div class="w-px h-16 bg-gray-400 mx-6"></div>
             
-            <!-- 176 Enseignants -->
+            
             <div class="flex items-center">
-                <!-- Icône enseignant avec lunettes exact -->
+                
                 <svg class="w-12 h-12 text-blue-600 mr-3" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L12 2L3 7V9C3 10.1 3.9 11 5 11V16.5C5 17.3 5.7 18 6.5 18S8 17.3 8 16.5V13H16V16.5C16 17.3 16.7 18 17.5 18S19 17.3 19 16.5V11C20.1 11 21 10.1 21 9Z"/>
-                    <!-- Lunettes -->
+                    
                     <circle cx="9" cy="9" r="1.5" fill="none" stroke="currentColor" stroke-width="0.5"/>
                     <circle cx="15" cy="9" r="1.5" fill="none" stroke="currentColor" stroke-width="0.5"/>
                     <path d="M10.5 9h3" stroke="currentColor" stroke-width="0.5"/>
@@ -134,9 +134,9 @@
     </div>
 </section>
 
-<!-- Mot de la Directrice -->
+
 <section class="py-12 bg-gray-200 relative overflow-hidden">
-    <!-- Motif de fond décoratif différent -->
+    
     <div class="absolute inset-0 opacity-25">
         <svg class="w-full h-full" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
             <defs>
@@ -151,11 +151,11 @@
     </div>
     
     <div class="container mx-auto px-6 relative z-10">
-        <!-- Section directement sur le fond - AUCUNE carte/box -->
+        
         <div class="flex items-center">
-            <!-- Partie gauche: Contenu directement sur le fond -->
+            
             <div class="flex-1 p-8 flex flex-col justify-center">
-                <!-- Ligne bleue + Badge + Titre + Contenu -->
+                
                 <div class="w-20 h-1.5 bg-blue-600 mb-4"></div>
                 
                 <div class="mb-4 flex items-center">
@@ -168,7 +168,7 @@
                 </h2>
                 
                 <div class="flex items-center space-x-4">
-                    <!-- Image de la directrice plus grande -->
+                    
                     <div class="flex-shrink-0">
                         <div class="w-24 h-32 rounded-lg overflow-hidden shadow-sm">
                             <img src="{{ asset('images/directrice.jpg') }}" alt="Directrice" class="w-full h-full object-cover" 
@@ -179,7 +179,7 @@
                         </div>
                     </div>
                     
-                    <!-- Texte plus lisible -->
+                    
                     <div class="flex-1">
                         <p class="text-gray-700 text-sm leading-relaxed mb-4">
                             L'INSTI, en collaboration avec ses partenaires, vous ouvre la porte de l'auto emploi en s'appuyant sur trois leviers: une formation de qualité, son unité d'application et le Programme entreprendre à l'école.
@@ -192,7 +192,7 @@
                 </div>
             </div>
             
-            <!-- Partie droite: Vidéo directement collée -->
+            
             <div class="flex-1">
                 <div class="aspect-video rounded-lg overflow-hidden">
                     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/PpeKtTnRbEA?rel=0"
@@ -206,12 +206,11 @@
     </div>
 </section>
 
-<!-- Actualités -->
 <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6">
-        <!-- Carte principale englobant toute la section -->
+        
         <div class="bg-white rounded-lg shadow-lg p-8">
-            <!-- Titre avec ligne bleue -->
+            
             <div class="text-center mb-12">
                 <div class="w-full h-1 bg-blue-600 mb-6"></div>
                 <h2 class="text-2xl lg:text-3xl font-bold text-blue-900 uppercase tracking-wide">
@@ -219,7 +218,7 @@
                 </h2>
             </div>
             
-            <!-- Grille des actualités -->
+            
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 @forelse($actualites->take(4) as $actualite)
                     <div class="overflow-hidden">
@@ -234,7 +233,7 @@
                         </div>
                     </div>
                 @empty
-                    <!-- Actualités par défaut si aucune en base -->
+                    
                     <div class="overflow-hidden">
                         <div class="aspect-video overflow-hidden rounded-lg mb-3">
                             <img src="{{ asset('images/events/integration.jpg') }}" alt="Intégration des étudiants" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
@@ -268,26 +267,16 @@
                         </div>
                     </div>
                     
-                    <div class="overflow-hidden">
-                        <div class="aspect-video overflow-hidden rounded-lg mb-3">
-                            <img src="{{ asset('images/events/integration.jpg') }}" alt="Activités étudiantes" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
-                        </div>
-                        <div>
-                            <p class="text-gray-700 text-sm leading-relaxed">
-                                Suivi des activités par l'équipe de rédaction se tenant informés des derniers événements se déroulant sur l'ENSIBA affectant la vie des étudiants
-                            </p>
-                        </div>
-                    </div>
+
                 @endforelse
             </div>
         </div>
     </div>
 </section>
 
-<!-- Nos Formations -->
-<section class="py-16 bg-white">
+<section class="py-16 bg-gray-50">
     <div class="container mx-auto px-6">
-        <!-- Titre de la section -->
+        
         <div class="mb-12">
             <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 uppercase mb-2">
                 NOS FORMATIONS
@@ -297,7 +286,7 @@
             </p>
         </div>
         
-        <!-- Grille des formations -->
+        
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             @forelse($formations->take(6) as $formation)
                 <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
@@ -326,12 +315,10 @@
                             <p><strong>Admission :</strong> {{ $formation->requirements }}</p>
                         @endif
                         
-                        <!-- Contenu réduit par défaut -->
                         <div class="formation-preview">
                             <p><strong>Description :</strong> {{ Str::limit($formation->description, 80) }}</p>
                         </div>
                         
-                        <!-- Contenu complet caché -->
                         <div class="formation-details hidden">
                             <p><strong>Description :</strong> {{ $formation->description }}</p>
                             @if($formation->duration)
@@ -349,186 +336,25 @@
                             @endif
                         </div>
                         
-                        <button class="mt-3 text-blue-600 hover:text-blue-800 text-xs font-semibold toggle-details" onclick="toggleFormationDetails(this)">
-                            Voir plus
+                        <button onclick="toggleFormationDetails(this)" class="mt-3 text-blue-600 hover:text-blue-800 text-xs font-medium">
+                            Voir plus de détails
                         </button>
                     </div>
                 </div>
             @empty
-                <!-- Formation par défaut si aucune en base -->
-                <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                    <div class="mb-4">
-                        <img src="{{ asset('images/formations/genie-civil.png') }}" alt="Génie Civil" class="w-full h-32 object-contain">
-                    </div>
-                    <h3 class="text-lg font-bold text-gray-900 mb-3">
-                        Licence professionnelle<br>
-                        en Génie civil (GC)
-                    </h3>
-                    <div class="text-xs text-gray-700 leading-relaxed space-y-1">
-                        <p><strong>Option :</strong> Bâtiments et Travaux Publics (BTP)</p>
-                        <p><strong>Admission :</strong> BAC C, D, E, F1, G7/BTI</p>
-                        
-                        <!-- Contenu réduit par défaut -->
-                        <div class="formation-preview">
-                            <p><strong>Profil de sortie :</strong> Conducteur de travaux, Chef Service d'entretien...</p>
-                        </div>
-                        
-                        <!-- Contenu complet caché -->
-                        <div class="formation-details hidden">
-                            <p><strong>Profil de sortie :</strong></p>
-                            <p>- Conducteur de travaux en génie civil</p>
-                            <p>- Chef Service d'entretien des TP</p>
-                            <p>- Conducteur des travaux de construction</p>
-                            <p>- Technicien d'essais dans les laboratoires géotechniques</p>
-                            <p>- Technicien en topographie et métré</p>
-                            <p>- Dessinateur en bâtiment et d'architecture, les agences immobilières</p>
-                        </div>
-                        
-                        <button class="mt-3 text-blue-600 hover:text-blue-800 text-xs font-semibold toggle-details" onclick="toggleFormationDetails(this)">
-                            Voir plus
-                        </button>
-                    </div>
+                <div class="col-span-3 text-center py-8">
+                    <p class="text-gray-500">Aucune formation disponible pour le moment.</p>
                 </div>
-            
-            <!-- Formation 2: Génie Électrique -->
-            <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <div class="mb-4">
-                    <img src="{{ asset('images/formations/electronique.png') }}" alt="Génie Électrique" class="w-full h-32 object-contain">
-                </div>
-                <h3 class="text-lg font-bold text-gray-900 mb-3">
-                    Licence professionnelle<br>
-                    en Génie Électrique et<br>
-                    Informatique
-                </h3>
-                <div class="text-xs text-gray-700 leading-relaxed space-y-1">
-                    <p><strong>Options :</strong> Électronique-Industriel et Électrotechnique (EI-ET)</p>
-                    <p><strong>Admission :</strong> BAC C, D, E, F1, F2, F3</p>
-                    
-                    <!-- Contenu réduit par défaut -->
-                    <div class="formation-preview">
-                        <p><strong>Profil de sortie :</strong> Assistant de labo, Technicien en électronique...</p>
-                    </div>
-                    
-                    <!-- Contenu complet caché -->
-                    <div class="formation-details hidden">
-                        <p><strong>Profil de sortie :</strong></p>
-                        <p>- Assistant de labo</p>
-                        <p>- Technicien en électronique</p>
-                        <p>- Technicien en installation de la commande des systèmes électroniques</p>
-                        <p>- Technicien en maintenance des systèmes informatiques et électroniques</p>
-                        <p>- Technicien en réseaux et télécommunications</p>
-                        <p>- Spécialiste de projet</p>
-                        <p>- Responsable</p>
-                        <p>- Concepteur d'applications web et mobile</p>
-                    </div>
-                    
-                    <button class="mt-3 text-blue-600 hover:text-blue-800 text-xs font-semibold toggle-details" onclick="toggleFormationDetails(this)">
-                        Voir plus
-                    </button>
-                </div>
-            </div>
-            
-            <!-- Formation 3: Maintenance des Systèmes -->
-            <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <div class="mb-4">
-                    <img src="{{ asset('images/formations/energie.png') }}" alt="Maintenance" class="w-full h-32 object-contain">
-                </div>
-                <h3 class="text-lg font-bold text-gray-900 mb-3">
-                    Licence professionnelle en<br>
-                    Maintenance des Systèmes<br>
-                    Industriels
-                </h3>
-                <div class="text-xs text-gray-700 leading-relaxed space-y-1">
-                    <p><strong>Options :</strong> Maintenance et Production Industrielle (M-PI)</p>
-                    <p><strong>Admission :</strong> BAC C, D, E, F1, F2 et F3</p>
-                    
-                    <!-- Contenu réduit par défaut -->
-                    <div class="formation-preview">
-                        <p><strong>Profil de sortie :</strong> Chargé de maintenance, Technicien supérieur...</p>
-                    </div>
-                    
-                    <!-- Contenu complet caché -->
-                    <div class="formation-details hidden">
-                        <p><strong>Profil de sortie :</strong></p>
-                        <p>- Chargé de maintenance d'une unité de production ou d'un parc automobile</p>
-                        <p>- Technicien supérieur en maintenance de véhicules</p>
-                        <p>- Gestionnaire de magasin de pièces de rechange et d'outillage</p>
-                        <p>- Organisateur et Contrôleur de la maintenance assistée par ordinateur</p>
-                        <p>- Technicien en diagnostic et dépannage de parc d'engins agricoles/parc d'engins de chantier/maintenance</p>
-                    </div>
-                    
-                    <button class="mt-3 text-blue-600 hover:text-blue-800 text-xs font-semibold toggle-details" onclick="toggleFormationDetails(this)">
-                        Voir plus
-                    </button>
-                </div>
-            </div>
-            
-            <!-- Formation 4: Génie Énergétique -->
-            <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <div class="mb-4">
-                    <img src="{{ asset('images/formations/energie.png') }}" alt="Génie Énergétique" class="w-full h-32 object-contain">
-                </div>
-                <h3 class="text-lg font-bold text-gray-900 mb-3">
-                    Licence professionnelle<br>
-                    en Génie Énergétique
-                </h3>
-                <div class="text-xs text-gray-700 leading-relaxed space-y-1">
-                    <p><strong>Options :</strong> Énergies Renouvelables</p>
-                    <p>(E-R) et Énergétique (E-E)</p>
-                    <p><strong>Admission :</strong> BAC C, D, E, F1, F2</p>
-                    <p><strong>Profil de sortie :</strong></p>
-                    <p>- Technicien supérieur en</p>
-                    <p>installation solaire</p>
-                </div>
-            </div>
-            
-            <!-- Formation 5: Génie Mécanique -->
-            <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <div class="mb-4">
-                    <img src="{{ asset('images/formations/genie-civil.png') }}" alt="Génie Mécanique" class="w-full h-32 object-contain">
-                </div>
-                <h3 class="text-lg font-bold text-gray-900 mb-3">
-                    Licence professionnelle<br>
-                    en Génie Mécanique et<br>
-                    Productique
-                </h3>
-                <div class="text-xs text-gray-700 leading-relaxed space-y-1">
-                    <p><strong>Options :</strong> Génie Industriel (G-I)</p>
-                    <p><strong>Admission :</strong> BAC C, D, E, F1, F2</p>
-                    <p><strong>Profil de sortie :</strong></p>
-                    <p>- Technicien supérieur en</p>
-                    <p>construction</p>
-                </div>
-            </div>
-            
-            <!-- Formation 6: Laboratoires pédagogiques -->
-            <div class="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow duration-300">
-                <div class="mb-4">
-                    <img src="{{ asset('images/formations/informatique.png') }}" alt="Laboratoires" class="w-full h-32 object-contain">
-                </div>
-                <h3 class="text-lg font-bold text-gray-900 mb-3">
-                    Laboratoires pédagogiques<br>
-                    et Unités d'application
-                </h3>
-                <div class="text-xs text-gray-700 leading-relaxed space-y-1">
-                    <p><strong>Laboratoire de génie Civil</strong></p>
-                    <p>Laboratoire d'électronique et d'électrotechnique</p>
-                    <p>Laboratoire d'informatique</p>
-                    <p>Unité de production</p>
-                </div>
-            </div>
             @endforelse
         </div>
     </div>
 </section>
 
-<!-- Nos Partenaires -->
 <section class="partenaires">
     <h2>NOS PARTENAIRES</h2>
     <hr class="highlight">
     <div class="logo-slider">
         <div class="logo-slide-track">
-            <!-- Les logos sont dupliqués pour créer un effet de défilement infini -->
             <div class="logo-slide">
                 <img src="{{ asset('images/partenaires/gel-logo.jpg') }}" alt="GEL">
             </div>
@@ -547,7 +373,6 @@
             <div class="logo-slide">
                 <img src="{{ asset('images/partenaires/sbee-logo.png') }}" alt="SBEE">
             </div>
-            <!-- Duplication des logos pour l'effet infini -->
             <div class="logo-slide">
                 <img src="{{ asset('images/partenaires/gel-logo.jpg') }}" alt="GEL">
             </div>
